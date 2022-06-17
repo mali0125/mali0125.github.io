@@ -1,0 +1,56 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+header,footer {
+    background-color: #3b4f8e;
+    padding: 10px;
+}
+
+.site-title {
+    color: #ffbdf5;
+}
+
+footer {
+    color: white;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li:nth-child(odd) {
+    background-color: #c3de92;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+a:link, a:visited, a:hover, a:active {
+    background-color: #e199d7;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 5px 100px;
+    width: 100px;
+    height: 25px; 
+    border: 1.5px solid #000000;
+}
+
+a:visited {
+    background-color: #b6beda;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #c3de92;
+    text-decoration: none;  
+}
+
+a:active {
+    background-color: white;
+    text-decoration: none;
+}
