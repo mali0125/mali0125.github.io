@@ -1,0 +1,149 @@
+/* Overall style of webpage  */
+
+body {
+    background-color: #aad4cf;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.wrapper {
+    background-color: #d9ebe8;
+    width: 800px;
+    margin: auto;
+}
+
+/* Defines the heading styles */
+
+h1 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 30px 10px 20px 10px;
+}
+
+h3 {
+    font-weight: lighter;
+    padding: 0 0 0 13px;
+}
+
+/* Creates a header that displays title over an image */
+
+h1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#header-image {
+    width: 100%;
+}
+
+/* Styles the navigation by setting colour and adjusting location */
+
+nav {
+    margin-top: -25px;
+    background-color: #d9ebe8;
+    font-size: 19px;
+    position: static;
+    text-indent: -20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Adjusts navigation so that list items appear horizontally, rather than vertically */
+
+nav ul li {
+    display: inline;
+}
+
+/* Adjusts spacing between navigation links, creates border to show distinction, and improves UX */
+
+nav ul li a {
+    display: inline-table;
+    color: black;
+    text-decoration: none;
+    padding: 5px 100px;
+}
+
+#story {
+    border-style: none solid none solid;
+    padding: 5px;
+}
+
+/* Floats image in the body so that text wraps around it */
+
+.float {
+    width: 760px;
+    margin: 10px;
+}
+
+#body-image {
+    width: 215px;
+    height: 235px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+/* Adjusts text alignment for "Facts About Starfish" */
+
+.facts {
+    margin-left: -15px;
+    line-height: 17px;
+}
+
+/* Styles the contact section to improve default HTML form design */
+
+.box {
+    border-style: solid;
+    margin: 10px;
+    padding: 15px 0 0 0;
+}
+
+fieldset {
+    border-style: none;
+}
+
+#name,#email {
+    width: 99%;
+}
+
+textarea {
+    width: 99%;
+    height: 80px;
+    resize: none;
+}
+
+input[type=submit] {
+    background-color: #d9ebe8;
+    border: solid;
+    width: 55px;
+    color: black;
+    font-size: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin: 13px;
+    cursor: pointer;
+}
+
+/* Styles copyright information */
+
+footer {
+    text-align: right;
+    padding: 30px;
+}
